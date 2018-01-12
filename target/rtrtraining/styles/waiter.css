@@ -1,0 +1,190 @@
+body{
+	background-image: url('../image/rtrbackground.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: monospace;
+}
+header{
+	margin-bottom: 3%;
+}
+header h3{
+	text-align: center;
+    font-size: 220%;
+    font-family: cursive;
+    display: inline;
+    color: white;
+}
+header a{
+    font-family: cursive;
+    font-size: 120%;
+    float: left;
+    display: inline;
+    margin: 10px 1%;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    width: 30%;
+    text-align: left;
+}
+header a:hover{
+	color: red;
+}
+header a:active{
+	color: red;
+	tranform: translateY(5px);
+}
+
+/* ---------------------------FLOOR----------------------------- */
+.floor{
+	width: 90%;
+	height: 545px;
+	margin: 0 auto;
+	border: 2px solid;
+	border-radius: 7px;
+	background-color: rgba(90, 177, 230, 0.89);
+	background-image: url('../image/nenden.jpg');
+}
+				/* TABLE */			
+#tables-container{/* coffee table place */
+	text-align: center;
+	font-family: cursive;
+	font-size: 100%;
+}			
+#tables-container .single-table{/* single Table */
+	display: inline-block;
+	height: 240px;
+	width: 250px;
+	border: 1px solid;
+	margin: 1.5% 0.7%;
+	background-color: rgba(194, 244, 244, 0.65);
+	border-radius: 5px;
+}
+			/* SINGLE TABLE FIELD */
+	/* top */
+#tables-container .single-table label{/* table label */
+	margin-right: 7%;
+}
+#tables-container .single-table .single-table-status{/* table status */
+    display: inline;
+    font-size: 80%;
+    float: right;
+    margin: 2px 2px;
+    border: 1.5px solid #05ff1a;
+    border-radius: 7px;
+    background-color: #05ff1a;
+    padding: 0px 1px;
+}
+#tables-container .single-table .single-table-bline{/* label beneath line */
+	border: 1px solid #efef8f;
+    border-radius: 2px;
+    width: 69%;
+    margin: 0 auto;
+    margin-bottom: 3px;
+}
+	/* mid */
+#tables-container .single-table .mid-table-container{/* foods chossed container */
+    width: 98%;
+    margin: 0 auto;
+    height: 75%;
+}
+#tables-container .single-table 
+.mid-table-container .choosed-items-table{
+	text-align: center;
+}
+#tables-container .single-table 
+.mid-table-container .choosed-items-table .trhead{
+	font-size: 80%;
+}
+#tables-container .single-table 
+.mid-table-container .choosed-items-table .thId{
+	width: 5%;
+}
+#tables-container .single-table 
+.mid-table-container .choosed-items-table .thButton{
+	width: 10%;
+}
+#tables-container .single-table 
+.mid-table-container .choosed-items-table td{
+	font-size:70%;
+}
+/* bottom ** - contains buttons */
+#tables-container .single-table button{/* buttons on the bottom of a single table
+										or on the right of a row */
+	border: 0;
+    border-radius: 7px;
+    background-color: #a72e02;
+    padding: 2px 11px;
+    margin: 0 3px;
+    box-shadow: 0px 1px yellow;
+}
+#tables-container .single-table button:hover{
+	background-color: white;
+}
+#tables-container .single-table button:active{
+	background-color: white;
+	transform: translateY(2px);
+	box-shadow: 0px 0px yellow;
+}
+#tables-container .single-table .bottom-table-container .bill-button{/* hide export-bill button */
+	display: none;
+}
+
+/* ----------------------------POPUP---------------------------------- */			
+.popup{			/* bill popup & item popup  */
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.69);
+}
+.popup .popup-contents{/* popup contents */
+    margin: auto;
+    padding: 20px;
+    padding-top: 1px;
+    border-radius: 10px;
+    width: 32%;
+    background-color: rgba(142, 253, 181, 0.89);
+}
+.popup .popup-contents .top-popup label{/* popup title */
+    font-family: cursive;
+    text-align: center;
+    font-size: 180%;
+    font-style: italic;
+    font-stretch: unset;
+}
+#popup-item #food-list{/* foods list */
+	margin: 0 auto;	
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+#popup-item #food-list tr td input{
+	margin: 0 15px;	
+}
+	/* BUTTONS  */
+.popup-contents	.popup-button button{/* accept button - bill button */
+	margin: 10px 45%;
+    border: 0;
+    border-radius: 7px;
+    background-color: #efef8f;
+    padding: 8px 4px;
+    box-shadow: 0px 1px yellow;
+}
+.popup-contents	.popup-button button:hover{
+	background-color: white;
+}
+.popup-contents	.popup-button button:active{
+	background-color: white;
+	transform: translateY(2px);
+	box-shadow: 0px 0px yellow;
+}
+.popup .popup-contents .bottom-popup button{
+	display: none;
+}
+
+
+
+
+

@@ -1,0 +1,84 @@
+body{
+	background-color: rgb(83, 201, 181);
+	background-image: url('../image/rtrbackground.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+header{
+	text-align: center;
+    font-size: 220%;
+    font-family: cursive;
+}
+footer{
+	position: static;
+    clear: both;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 220%;
+    font-family: cursive;
+}
+/*  */
+.login-form{
+    font-family: cursive;
+    background-color: rgba(37, 238, 222, 0.82);
+    width: fit-content;
+    height: 220px;
+    padding: 10px 20px;
+    font-size: 120%;
+    margin-top: 5%;
+    border: 2px solid;
+    border-radius: 10px;
+    float: right;
+    margin-right: 7%;
+}
+.login-form .login-form-title{
+    text-align: center;
+    margin: 30px;
+    font-size: 140%;
+}
+.login-form .input-form{
+	margin: 10px;
+}
+.login-form .input-form label{
+	width: 30%;
+}
+.login-form .input-form input{
+    width: 60%;
+}
+.login-form .input-form .password-form{
+	margin-top: inherit;
+}
+.login-form .input-form .password-form input{
+    margin-left: 6px;
+    width: 60.0%;
+}
+
+.login-form .login-button{
+    font-family: inherit;
+    margin-top: 7px;
+    margin-right: 20px;
+    float: right;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #d9d3d3;
+}
+
+
+
+
+.loading-bar #dualring{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	position: absolute;	
+	background-image: url('../images/dualring.gif');
+	background-position: center;
+	
+}
+
+
+
+ 	

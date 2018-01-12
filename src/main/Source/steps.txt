@@ -1,0 +1,35 @@
+1/ database (mySQL): done 
+2/ web.xml, dispatcher-serverlet.xml: done
+3/ database package: done
+4/ controller:
+	- login: done!
+	- logout: done!
+	- chef: done!
+	- manager: done!
+	- waiter-waitress: done!
+5/ DAO:
+	- BaseDAO: done!
+	- LoginDAO: done!
+	- ItemDAO: 
+		+ findAllItem.
+	- OrderItemDAO:
+		+ addItemToOrder.
+		+ countOrder.
+		+ createNewOrder.
+		+ findOrderItemNeeded.
+		+ findTableByTableId.
+	- TableListDAO:
+		+ findAllTable.
+6/ Service:
+	- ItemService: 
+		+ getAllItem.
+	- OrderItemService:
+		+ addOrderItem.
+		+ getOrderItem.
+	- TableService.
+	- LoginService.
+7/ JavaScript:
+	- login.
+	- waiter.
+	- chef.
+	- manager.

@@ -1,0 +1,193 @@
+body{
+	background-color: rgb(83, 201, 181);
+	background-image: url('../image/rtrbackground.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: monospace;
+}
+header{					/* HEADER PAGE */
+	margin-bottom: 3%;
+}
+header h3{
+	text-align: center;
+    font-size: 220%;
+    font-family: cursive;
+    display: inline;
+    color: white;
+}
+header a{
+    font-family: cursive;
+    font-size: 120%;
+    float: left;
+    display: inline;
+    margin: 10px 1%;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    width: 30%;
+    text-align: left;
+}
+header a:hover{
+	color: red;
+}
+header a:active{
+	color: red;
+	tranform: translateY(5px);
+}
+
+/* ------------------------------------------------------------ */
+
+					/* FLOOR */
+.floor{
+	width: 90%;
+	height: 545px;
+	margin: 0 auto;
+	border: 2px solid;
+	border-radius: 7px;
+	background-color: rgba(90, 177, 230, 0.89);
+	background-image: url('../image/nenden.jpg');
+}
+				/* TABLE */
+				
+.floor .coffee-table{			/* coffee table place */
+	text-align: center;
+	font-family: cursive;
+	font-size: 100%;
+}			
+.floor .coffee-table .table{    /* single Table */
+	display: inline-block;
+	height: 240px;
+	width: 250px;
+	border: 1px solid;
+	margin: 1.5% 0.7%;
+	background-color: rgba(130, 209, 208, 0.86);
+	border-radius: 5px;
+}
+			/* TABLE FIELD */
+	/* top */
+.floor .coffee-table .table label{ 	/* table label */
+	margin-right: 7%;
+}
+.floor .coffee-table .table .table-status{ /* table status */
+    display: inline;
+    font-size: 80%;
+    float: right;
+    margin: 2px 7px 0 0;
+    color: black;
+    border: 1px solid #05ff1a;
+    border-radius: 7px;
+    background-color: #05ff1a;
+}
+.floor .coffee-table .label-line{ /* label beneath line */
+	border: 1px solid #efef8f;
+    border-radius: 2px;
+    width: 69%;
+    margin: 0 auto;
+    margin-bottom: 3px;
+}
+		/* mid table */
+.floor .coffee-table .choosed-list-container{  /* foods chossed container */
+    width: 98%;
+    margin: 0 auto;
+    height: 75%;
+}
+.floor .coffee-table .choosed-list-container .choosed-table{
+	text-align: center;
+}
+.floor .coffee-table .choosed-list-container .trhead{
+	font-size: 80%;
+}
+.floor .coffee-table .choosed-list-container .thId{
+	width: 5%;
+}
+.floor .coffee-table .choosed-list-container .thButton{
+	width: 10%;
+}
+.floor .coffee-table .choosed-list-container .choosed-table td{
+	font-size:70%;
+}
+
+/* bottom table - button */
+.floor .coffee-table .table .table-button, #coffee-table-container .delete-order-item{
+	border: 0;
+    border-radius: 10px;
+    background-color: #a72e02;
+    padding: 2px 11px;
+    margin: 0 3px;
+    box-shadow: 0px 3px yellow;
+}
+
+.floor .coffee-table .table button:hover, 
+#coffee-table-container button:hover{
+	background-color: white;
+}
+.floor .coffee-table .table button:active, 
+#coffee-table-container button:active{
+	background-color: white;
+	transform: translateY(3px);
+	box-shadow: 0px 0px yellow;
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+				/* I T E M  &  B I L L 		P O P U P */				
+.floor #item-popup-modal, .floor #bill-popup-modal{			/* popup place */
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.69);
+}
+.floor #item-popup-modal .item-popup-content, 
+.floor #bill-popup-modal .bill-popup-content{ /* popup content */
+    margin: auto;
+    padding: 20px;
+    padding-top: 1px;
+    border-radius: 10px;
+    width: 32%;
+    background-color: rgba(142, 253, 181, 0.89);
+}
+.floor #item-popup-modal .item-popup-content .item-popup-title,
+.floor #bill-popup-modal .bill-popup-content .bill-popup-title{ /* popup title */
+    font-family: cursive;
+    text-align: center;
+    font-size: 180%;
+    font-style: italic;
+    font-stretch: unset;
+}
+.floor #item-popup-modal .item-popup-content #food-list{			/* food list */
+	margin: 0 auto;	
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+.floor #item-popup-modal .item-popup-content #food-list tr td input{
+	margin: 0 15px;	
+}
+	/* B U T O N  */
+.floor #item-popup-modal .accept-button
+.floor #bill-popup-modal .export-bill-button{	/* accept button - bill button */
+	margin: 10px 45%;
+}
+#closepopupbutton, #accept-button, 
+#closebillbutton, #export-bill-button{/* accept button */
+    border: 0;
+    border-radius: 10px;
+    background-color: #efef8f;
+    padding: 8px 4px;
+}
+#export-bill-button{
+	display: block;
+}
+
+
+
+
+
+
+
+
